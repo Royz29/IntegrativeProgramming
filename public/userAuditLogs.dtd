@@ -1,0 +1,8 @@
+<!ELEMENT userAuditLogs (userAuditLog+)>
+<!ELEMENT userAuditLog (old_values,new_values)>
+<!ATTLIST userAuditLog id CDATA #REQUIRED>
+<!ATTLIST userAuditLog action CDATA #REQUIRED>
+<!ATTLIST userAuditLog user_agent CDATA #REQUIRED>
+<!ATTLIST userAuditLog created_at CDATA #REQUIRED>
+<!ELEMENT old_values (#PCDATA)>
+<!ELEMENT new_values (#PCDATA)>
