@@ -1,0 +1,7 @@
+<!ELEMENT inventoryActivityLogs (inventoryActivityLog*)>
+<!ELEMENT inventoryActivityLog (old_values, new_values)>
+<!ATTLIST inventoryActivityLog inventory_name CDATA #REQUIRED>
+<!ATTLIST inventoryActivityLog action CDATA #REQUIRED>
+<!ATTLIST inventoryActivityLog created_at CDATA #REQUIRED>
+<!ELEMENT old_values (#PCDATA)>
+<!ELEMENT new_values (#PCDATA)>

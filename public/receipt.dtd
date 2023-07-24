@@ -1,0 +1,10 @@
+<!ELEMENT cart (item+, total_price)>
+<!ELEMENT item (product_id, name, quantity, image, price, total_price, price_per_unit)>
+<!ELEMENT product_id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT total_price (#PCDATA)>
+<!ELEMENT price_per_unit (#PCDATA)>
+<!ELEMENT net_unit (#PCDATA)>
